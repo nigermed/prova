@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXDOIMonographChapterWorkRegistrationMessage xsi:schemaLocation="http://www.editeur.org/onix/DOIMetadata/2.0 http://www.medra.org/schema/onix/DOIMetadata/2.0/ONIX_DOIMetadata_2.0.xsd" xmlns:cl="http://www.medra.org/DOIMetadata/2.0/Citations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.editeur.org/onix/DOIMetadata/2.0">
+	<Header>
+		<FromCompany>Publishing company</FromCompany>
+		<FromPerson>Name Surname</FromPerson>
+		<FromEmail>info@publishingcompany.org</FromEmail>
+		<ToCompany>mEDRA</ToCompany>
+		<SentDate>20200904</SentDate>
+		<NotificationResponse>01</NotificationResponse>
+	</Header>
+	<DOIMonographChapterWork>
+		   <NotificationType>07</NotificationType>
+   <DOI>10.3233/978-1-58603-844-1-145</DOI>
+   <DOIWebsiteLink>https://www.medra.org/servlet/aliasResolver?alias=iospressISSNISBN&amp;issn=1874-6276&amp;volume=35&amp;spage=145</DOIWebsiteLink>
+   <RegistrantName>IOS Press</RegistrantName>
+		
+		<RegistrationAuthority>mEDRA</RegistrationAuthority>
+		<!--descritpion of the entire book where the chapter is published-->
+		<MonographicPublication>
+			<MonographicWork>
+				<!-- title of the entire book MANDATORY-->
+				<Title>
+					<TitleType>01</TitleType>
+					<TitleText>Risk Assessment as a Basis for the Forecast and Prevention of Catastrophies</TitleText>
+				</Title>
+				<!--authors of the entire book, if miscellaneous volume only editoris with role B01, repeat if more than one-->
+				<Contributor>
+					<ContributorRole>B01</ContributorRole>
+					<NamesBeforeKey>Name</NamesBeforeKey>
+					<KeyNames>Surname</KeyNames>
+					<ProfessionalAffiliation>
+						<ProfessionalPosition>professional position</ProfessionalPosition>
+						<Affiliation>Affiliation</Affiliation>
+					</ProfessionalAffiliation>
+				</Contributor>
+				<Language>
+					<LanguageRole>01</LanguageRole>
+					<LanguageCode>ita</LanguageCode>
+				</Language>
+				<!-- subjects in a specified scheme, such as Thema (93), BIC (12), BISAC (10)-->
+				<MainSubject>
+					<MainSubjectSchemeIdentifier>10</MainSubjectSchemeIdentifier>
+					<SubjectCode>MED057000</SubjectCode>
+				</MainSubject>
+			   <Publisher>
+            <PublishingRole>01</PublishingRole>
+            <PublisherName>IOS Press</PublisherName>
+         </Publisher>
+         <CountryOfPublication>NL</CountryOfPublication>
+			</MonographicWork>
+			<!-- description of the different formats of the entire book and therefore of the chapters. AT LEAST ONE IS MANDATORY-->
+			<!-- printed format-->
+			<MonographicProduct>
+			
+				<ProductForm>BA</ProductForm>
+				<!--description of the series with printed issn, only for book belonging to a series-->
+				<Series>
+					<SeriesIdentifier>
+						<SeriesIDType>02</SeriesIDType>
+						<IDValue>1874-6276</IDValue>
+					</SeriesIdentifier>
+					<TitleOfSeries>NATO Science for Peace and Security Series, E: Human and Societal Dynamics</TitleOfSeries>
+				</Series>
+				<VolumeNumber>35</VolumeNumber>
+				<PublicationDate>2008</PublicationDate>
+			</MonographicProduct>
+	
+		</MonographicPublication>
+		<!--end of description of the entire book-->
+		<!--description of the individual chapter in the book MANDATORY-->
+		<ContentItem>
+			<SequenceNumber>1</SequenceNumber>
+			<TextItem>
+				<TextItemType>03</TextItemType>
+				       <PageRun>
+            <FirstPageNumber>145</FirstPageNumber>
+            <LastPageNumber>148</LastPageNumber>
+         </PageRun>
+         <NumberOfPages>4</NumberOfPages>
+      </TextItem>
+      <Title>
+         <TitleType>01</TitleType>
+         <TitleText>Utilisation of Industrial Waste Products as an Effective Method of Ecological Disaster Prevention</TitleText>
+      </Title>
+      <Contributor>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Burya A.I.</PersonName>
+      </Contributor>
+      <Contributor>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Burmistr M.V.</PersonName>
+      </Contributor>
+      <Contributor>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Cherkassova N.G.</PersonName>
+      </Contributor>
+      <Contributor>
+         <ContributorRole>A01</ContributorRole>
+         <PersonName>Zhukova A.V.</PersonName>
+      </Contributor>
+      <Subject>
+         <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+         <SubjectHeadingText>Polymeric composition materials (PCM)</SubjectHeadingText>
+      </Subject>
+      <Subject>
+         <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+         <SubjectHeadingText>fibre materials</SubjectHeadingText>
+      </Subject>
+      <OtherText>
+         <TextTypeCode>01</TextTypeCode>
+         <Text>The possibility of using fibre production wastes as polymeric compositional materials (PCM) was studied with the purpose of minimising ecological risks through the rational utilisation of production wastes and the reduction of biologically irresolvable materials in the environment. The articles of PCM were tested and used in the friction units of metallurgical, chemical and mining equipment in the construction of the machines. These articles can be used instead of ferrous or non-ferrous metals and textolite. The use of PCM as a bearing shell for spindle support in pilger mills, hemispheres of half-couplings pilger mills, cartridges, rollers of piercing mills, seats of pipe-cutting machines, friction-bearings in the rollers of rollerbeds in ovens, conveyor rollers of etching sections in tin-zinc production, in the production of ammonia saltpetre in oven rollers of electric-insulation aggregate, supports of blocks of de-fatting units in tower ovens, cleaning blocks in foundries, rotor plates in rotation compressors, cartridges of rollers in mining conveyor belts, in pumps of acid transition, sweet water and sea water, press-on bushes and guide bushes, hydroplungers of water-pumps increased the service life of these units by 3&amp;ndash;6 times.</Text>
+      </OtherText>
+      <PublicationDate>2008</PublicationDate>
+      <CopyrightStatement>
+         <CopyrightYear>2008</CopyrightYear>
+         <CopyrightOwner>
+            <CorporateName>&amp;copy; IOS Press. All rights reserved.</CorporateName>
+         </CopyrightOwner>
+      </CopyrightStatement>
+		</ContentItem>
+	</DOIMonographChapterWork>
+</ONIXDOIMonographChapterWorkRegistrationMessage>
